@@ -242,9 +242,12 @@ input:focus, textarea:focus {
     <p>© 2026 My Website. All Rights Reserved.</p>
     <p>Thank You For Visiting!</p>
 </footer>
-    <button onclick="alert('You clicked the button!')">Click Me</button>
+    <button onclick="showMessage()">Click Me</button>
+    <p id="message"></p>
 <script>
-   alert("Hello! JavaScript is working")
+function showMessage() {
+    document.getElementById("message").innerHTML = "Button clicked successfully!";
+}
    </script>   
 </body>
 </html>

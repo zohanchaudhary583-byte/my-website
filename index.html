@@ -252,8 +252,28 @@ function showMessage() {
     function showMessage() {
     document.getElementById("message").innerHTML =
     "Congratulations! You are learning JavaScript!";
+        function changeColor() {
+    document.body.style.backgroundColor = "lightblue";
+            function changeBlue() {
+    document.body.style.backgroundColor = "lightblue";
+}
+
+function changePink() {
+    document.body.style.backgroundColor = "lightpink";
+}
+
+function changeGreen() {
+    document.body.style.backgroundColor = "lightgreen";
 }
 }
-   </script>   
+}
+}
+   </script> 
+    <button onclick="changeColor()">Change Background</button>
+    <button onclick="changeBlue()">Blue Color</button>
+
+<button onclick="changePink()">Pink Color</button>
+
+<button onclick="changeGreen()">Green Color</button>
 </body>
 </html>

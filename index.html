@@ -245,7 +245,7 @@ input:focus, textarea:focus {
     <button 
         onclick="showMessage()">shoeMessage</button>
     <p id="message"></p>
-    
+    <p id="myName"></p>
 <script>
 function showMessage() {
     document.getElementById("message").innerHTML = "Button clicked successfully!";
@@ -268,9 +268,8 @@ function changeGreen() {
 }
 
 function showName() {
-    let userName = prompt("Enter your name");
-    alert("Welcome " + userName);
-}
+   let userName = prompt("Enter your name");
+document.getElementById("myName").innerHTML = "Welcome " + userName;
 </script>
     <button onclick="changeColor()">Change Background</button>
     <button onclick="changeBlue()">Blue Color</button>

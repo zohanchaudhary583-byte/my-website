@@ -249,12 +249,13 @@ input:focus, textarea:focus {
 <script>
 function showMessage() {
     document.getElementById("message").innerHTML = "Button clicked successfully!";
-    function showMessage() {
-    document.getElementById("message").innerHTML =
-    "Congratulations! You are learning JavaScript!";
-        function changeColor() {
-    document.body.style.backgroundColor = "lightblue";
-            function changeBlue() {
+}
+
+function changeColor() {
+    document.body.style.backgroundColor = "lightyellow";
+}
+
+function changeBlue() {
     document.body.style.backgroundColor = "lightblue";
 }
 
@@ -265,11 +266,12 @@ function changePink() {
 function changeGreen() {
     document.body.style.backgroundColor = "lightgreen";
 }
- function showName() {
+
+function showName() {
     let userName = prompt("Enter your name");
     alert("Welcome " + userName);
-}           
-   </script> 
+}
+</script>
     <button onclick="changeColor()">Change Background</button>
     <button onclick="changeBlue()">Blue Color</button>
 

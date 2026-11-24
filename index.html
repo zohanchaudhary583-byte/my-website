@@ -265,6 +265,10 @@ function changePink() {
 function changeGreen() {
     document.body.style.backgroundColor = "lightgreen";
 }
+ function showName() {
+    let userName = prompt("Enter your name");
+    alert("Welcome " + userName);
+}           
    </script> 
     <button onclick="changeColor()">Change Background</button>
     <button onclick="changeBlue()">Blue Color</button>
@@ -272,5 +276,6 @@ function changeGreen() {
 <button onclick="changePink()">Pink Color</button>
 
 <button onclick="changeGreen()">Green Color</button>
+    <button onclick="showName()">Show My Name</button>
 </body>
 </html>
